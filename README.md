@@ -20,21 +20,19 @@ Install git: (https://github.com/git-guides/install-git#:~:text=To%20install%20G
 > Step 3 ---
 Install VsCode: (https://code.visualstudio.com/docs/setup/windows)
 
-> Step 4 ---
-Install Cypress: (https://on.cypress.io/installing-cypress)
+> Step 4 --- 
+initialize project:    npm init 
 
-> Step 5 --- Fork this repository (https://docs.github.com/en/get-started/quickstart/fork-a-repo) it first.
+> Step 5 --- 
+install cypress:       npm install --save-dev cypress@10.7.0
 
-> Step 6 --- Clone (https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+> Step 6 --- 
+Open cypress           npx cypress open
 
-> Step 7 ---
-You can unzip the project and open the project folder in VsCode
+> Step 7 --
 
-> Step 8 ---
-Add the project to Cypress (https://on.cypress.io/writing-your-first-test)
-
-> Step 9 ---
-Run in Continuous Integration (https://on.cypress.io/continuous-integration)
+# Run in Continuous Integration 
+(https://on.cypress.io/continuous-integration)
 
 # Mochawesome Report Generator: 
 Step 1: npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator
