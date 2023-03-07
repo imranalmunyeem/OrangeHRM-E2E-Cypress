@@ -4,10 +4,6 @@ This is a complete ecommerce website UI automation project by Imran Al Munyeem
 # Project Description
 This website contains different kind of products such as Computers, Electronics, Apparel, Digital downloads, Books, Jewelry, Gift Cards. User can register with given credential's fields, login, search for any specific product, order, subscribe, visit social links, and so on.
 
-#Tools used
-Cypress version: 10.7.0.
-VScode
-
 # Help + Testing
 The steps below will show how you can run and test this project.
 
@@ -29,7 +25,21 @@ install cypress:       npm install --save-dev cypress@10.7.0
 > Step 6 --- 
 Open cypress           npx cypress open
 
-> Step 7 --
+> Step 7 -- 
+Modify config file
+        ---- Go to cypress.config.js
+        ---- Modify like below:
+        const { defineConfig } = require("cypress");
+
+module.exports = defineConfig({
+  e2e: {
+    setupNodeEvents(on, config) {
+      // implement node event listeners here
+    },
+    specPattern: "cypress/e2e/**/*.{js,jsx,ts,tsx,feature}"
+  },
+});
+
 
 # Run in Continuous Integration 
 (https://on.cypress.io/continuous-integration)
