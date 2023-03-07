@@ -1,0 +1,14 @@
+{
+  "name": "orangehrm",
+  "version": "1.0.0",
+  "description": "E2E Testing using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Imran Al Munyeem",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
