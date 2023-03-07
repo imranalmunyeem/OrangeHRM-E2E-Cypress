@@ -4,6 +4,10 @@ This is a complete ecommerce website UI automation project by Imran Al Munyeem
 # Project Description
 This website contains different kind of products such as Computers, Electronics, Apparel, Digital downloads, Books, Jewelry, Gift Cards. User can register with given credential's fields, login, search for any specific product, order, subscribe, visit social links, and so on.
 
+# Essential Plugins
+ES6 Mocha Snippets  - Shortcuts to reduce the amount of boiler plate you need to type when creating a test file using mocha.
+Material Icon Theme - Material Design Icons for Visual Studio Code
+
 # Help + Testing
 The steps below will show how you can run and test this project.
 
